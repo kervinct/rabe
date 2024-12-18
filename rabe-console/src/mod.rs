@@ -295,7 +295,7 @@ fn main() {
                     Arg::with_name(ATTRIBUTES)
                         .long(ATTRIBUTES)
                         .required(false)
-                        .takes_value(true)
+                        .value_delimiter(",")
                         .help("attributes to use."),
                 ),
         )

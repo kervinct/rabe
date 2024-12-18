@@ -24,7 +24,7 @@ In order to compile and test:
   * This generates msk.key and pk.key 
 - Generate a new key with **attributes** "A" and "B"
   * ```bash
-    $ rabe --s AC17CP keygen --a 'A and B'
+    $ rabe --s AC17CP keygen --a=A,B
     ```
   * This generates a new key with **attributes** "A" and "B" and saves it to sk.key
 - Encrypt a message with the HUMAN or JSON language **policy** "A" and "B"
